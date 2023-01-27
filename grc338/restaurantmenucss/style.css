@@ -19,7 +19,7 @@ h1 {
 
 /* You’ll need to add a span element to your HTML. */
 h1 span { 	
-	font-family: 'Times New Roman';
+	font-family: serif;
 	font-style: italic;
 	font-weight: bold;
 	text-transform: lowercase;
@@ -30,7 +30,7 @@ h2 {
 	color: #f9f9f9;
 	font-size: 24px;
 	padding: .25em 1em .5em;
-	font-family: 'Times New Roman';
+	font-family: serif;
 	font-weight: bold;
 }
 
