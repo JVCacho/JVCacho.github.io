@@ -1,0 +1,128 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
+
+/* Grid Assignment */
+
+div.container {
+    max-width: 75em;
+    margin: auto;
+    background-color: #fafafa; 
+    }
+
+figure {
+    display: grid;
+    grid-template-columns: 80% auto;
+    }
+
+figcaption {
+    grid-column: 2/3;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+section.ingredients {
+    grid-column: 1/2;
+    margin-left: 1em;
+}
+
+section.directions {
+   grid-column: 2/3;
+   margin-right: 1em;
+}
+
+
+
+/* CSS Mobile */
+body {
+background-color: #dddcdc; 
+}
+
+h1 {
+background-color: #ff8800;
+color: #f9fcfe;
+font-family: Sutro, serif;  
+font-weight: 700;
+font-size: 1.75em;
+padding: 2em 0.75em .25em;
+}
+
+h2 {
+background-color: #ff8800;
+color: #ffddbb;
+font-family: Sutro, serif;
+font-weight: 300;
+font-size: 1.3em;
+padding: 0em 1em .75em;
+}
+
+
+img {
+    width: 100%; /*Please leave this line.*/
+    display: block;
+    padding: 0em 0em 2em 0em;
+    }
+
+figcaption {
+    grid-column: auto;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic;
+    font-size: .85em;
+    padding: 2.2em 1.7em 1em 2.2em;
+}
+
+h3 {
+color: #ff8800;
+font-family: Sutro, serif;
+font-weight: 500;
+font-size: 1em;
+text-transform: uppercase;
+padding: 1em 1em .75em 1.3em; /* helps change padding for border line*/
+border-top: .15em solid;
+margin: 0em 1em 0em;
+}
+
+
+li {
+    margin: 0em 0em .9em 0em;
+}
+
+/* class ingredients */
+ul {
+    font-family: poppins, sans-serif;
+    font-weight: 400;  
+    font-size: .85em;
+    margin: 0em 1em 1em 1.50em; 
+}
+
+.ingredients {
+    list-style-type: disc;
+}
+
+/* class directions */
+ol {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-size: .85em;
+    margin: 0em 1em 3em 1.50em; 
+}
+
+.directions {
+    list-style-type: armenian;
+}
+
+/* Footer */
+footer {
+grid-column: 1/3; /* Grid Assignment */
+background-color: #ff8800;
+color: #f9fcfe;
+font-family: poppins, sans-serif;  
+font-weight: 400;
+font-size: .85em;
+padding: 1em 1em 1em 1.2em;
+}
