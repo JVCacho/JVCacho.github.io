@@ -141,6 +141,13 @@ nav ul li a {
 	border-radius: .15em .15em;
 	}
 
+nav ul li a:hover {
+	color: white;
+	background-color: #333333;
+	padding: .5em .5em;
+	border-radius: .15em .15em;
+	}
+
 
 nav ul li.selected a {
 	color: #d39769;
