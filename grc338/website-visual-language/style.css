@@ -8,7 +8,7 @@ body {
 	font-style: normal;
 	max-width: 90em;
 	margin:  auto auto;
-	background-color: #d39769;
+	background-color: #dab48f;
 }
 
 div.home-container { 
@@ -16,7 +16,7 @@ div.home-container {
 	background-size: cover;
 	position: relative;
 	min-height: 100vh;
-	background-color: #d39769;
+	background-color: #dab48f;
 }
 
 
@@ -136,7 +136,7 @@ nav ul li {
 	
 nav ul li a {
 	color: white;
-	background-color: #d39769;
+	background-color: #dab48f;
 	padding: .5em .5em;
 	border-radius: .15em .15em;
 	}
@@ -150,7 +150,7 @@ nav ul li a:hover {
 
 
 nav ul li.selected a {
-	color: #d39769;
+	color: #dab48f;
 	background-color: #f0f0f0;
 	padding: .5em .5em;
 	border-radius: .15em .15em;
@@ -167,14 +167,14 @@ p.slogan {
 	}
 	
 hr {
-	color: #d39769;
-	background: #d39769;
+	color: #dab48f;
+	background: #dab48f;
 	height: 0.5em;
 	border-radius: .25em .25em;
 	width: 87.5%; 
 }
 article {
-	background-color: #d39769;
+	background-color: #dab48f;
 	position: center;
 	max-width: 45em;
 	margin: auto;
