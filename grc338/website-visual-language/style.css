@@ -1,0 +1,225 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+body {
+	font-family: "new-spirit", serif;
+	font-weight: 400;
+	font-style: normal;
+	max-width: 90em;
+	margin:  auto auto;
+	background-color: #d39769;
+}
+
+div.home-container { 
+	background: url("images/windowview2.jpg") center center fixed;
+	background-size: cover;
+	position: relative;
+	min-height: 100vh;
+	background-color: #d39769;
+}
+
+
+div.container { 
+	background-color: #f0f0f0;
+	position: relative;
+	min-height: 100vh;
+}
+
+/* >>> IMPORTANT: you have to change the wrap the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class.  */
+
+
+main { 
+	padding: 1em 1em 4.5em ;
+	background-color: #f0f0f0;
+	}
+
+img {
+    width: 100%; /*Please leave this line.*/
+    display: block;
+}
+
+img.corner {
+    width: 87.5%; 
+	margin: auto auto;
+    display: block;
+	border-radius: .55em .55em;
+}
+
+header {
+	display: grid;
+	grid-template-columns: 80% auto;
+	grid-template-columns: auto auto;
+	background: gainsboro;
+	padding: 1em .75em 1.5em .5em;
+	border-radius: 0em  0em .55em .55em;
+	overflow:hidden;
+	}
+
+h1 {
+	width: 12em;
+	padding: 0em 0em 0em 1.75em;
+	}
+
+h2, h3, h4 {
+	font-weight: 700;
+	}
+
+h2 {
+	font-size: 2.25em;
+	}
+	
+h3 {
+	font-size: 2em;
+	margin: 1.3em 0em 1em 0em;
+}
+h4 {
+	font-size: 1.45em;
+}
+
+h3.home {
+	color: white;
+	margin: auto auto;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	}
+
+nav ul  {
+	text-align: right;
+	}
+	
+ul li 	{
+	list-style-type: none;
+}
+
+figure {
+	margin-bottom: 1.5em;
+}
+
+main.menu ul {
+	margin: 0.2em 0em 2.2em;
+}	
+
+main.menu ul li {
+		margin: 1em 0em 1em;
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-template-rows: auto auto;
+}	
+
+p {
+	margin: 0.5em 0em 1em 0em;
+	}
+
+p.description {
+	grid-column: 1/3;
+	margin: 0em;
+	}
+	
+p.price {
+	grid-row: 1/2;
+	grid-column: 2/3;
+	font-style: italic;
+	color: black;
+	text-align: right;
+	margin: 0em;
+	}
+	
+nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: .5em;
+	padding: .5em 0.25em;
+	}
+	
+nav ul li a {
+	color: white;
+	background-color: #d39769;
+	padding: .5em .5em;
+	border-radius: .15em .15em;
+	}
+
+
+nav ul li.selected a {
+	color: #d39769;
+	background-color: #f0f0f0;
+	padding: .5em .5em;
+	border-radius: .15em .15em;
+	}
+
+p.slogan {
+	font-size: 3em;
+	font-family: "new-spirit", serif;
+	font-weight: 700;
+	font-style: italic;
+	text-align: center;
+	padding: 1em .75em .75em .75em;
+	color: #fafafa;	
+	}
+	
+hr {
+	color: #d39769;
+	background: #d39769;
+	height: 0.5em;
+	border-radius: .25em .25em;
+	width: 87.5%; 
+}
+article {
+	background-color: #d39769;
+	position: center;
+	max-width: 45em;
+	margin: auto;
+	padding: 0.35em;
+	border-radius: .55em .55em;
+	}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem; 
+  box-sizing: border-box;
+  padding: 1em .75em 0em;
+  background: gainsboro;
+  border-radius: .55em .55em 0em  0em;
+  overflow:hidden;
+}
+
+address {
+	font-size: 1.5em;
+	margin: auto;
+}
+
+address.home {
+	color: white;
+	margin: auto auto auto 0.15em;
+	padding: 0em 5em 1em 5em;
+	text-align: center;
+}
+
+
+footer p {
+	margin: auto;
+}
+
+@media screen and (min-width: 60em) {
+
+main.menu ul {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 5em;
+}
+
+nav ul li  {
+	font-size: 1.5em;
+	display: inline-block;
+	margin: .5em .35em .45em 0em;
+}
+
+div.container, div.home-container {
+	margin: auto;
+}
+
+}
