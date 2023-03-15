@@ -6,9 +6,9 @@ body {
 	font-family: "new-spirit", serif;
 	font-weight: 400;
 	font-style: normal;
-	max-width: 90em;
+	max-width: 75em;
 	margin:  auto auto;
-	background-color: #dab48f;
+	background-color: #c29f72;
 }
 
 div.home-container { 
@@ -16,7 +16,7 @@ div.home-container {
 	background-size: cover;
 	position: relative;
 	min-height: 100vh;
-	background-color: #dab48f;
+	background-color: #c29f72;
 }
 
 
@@ -43,7 +43,7 @@ img.corner {
     width: 87.5%; 
 	margin: auto auto;
     display: block;
-	border-radius: .55em .55em;
+	border-radius: .45em .45em;
 }
 
 header {
@@ -51,17 +51,18 @@ header {
 	grid-template-columns: 80% auto;
 	grid-template-columns: auto auto;
 	background: gainsboro;
-	padding: 1em .75em 1.5em .5em;
-	border-radius: 0em  0em .55em .55em;
+	padding: 1em .85em 1em .5em;
+	border-radius: 0em  0em .45em .45em;
 	overflow:hidden;
 	}
 
 h1 {
-	width: 12em;
-	padding: 0em 0em 0em 1.75em;
+	width: 11em;
+	padding: .5em 0em 0em .65em;
 	}
 
 h2, h3, h4 {
+	color: #333333;
 	font-weight: 700;
 	}
 
@@ -111,6 +112,7 @@ main.menu ul li {
 
 p {
 	margin: 0.5em 0em 1em 0em;
+	color: #333333;
 	}
 
 p.description {
@@ -122,13 +124,13 @@ p.price {
 	grid-row: 1/2;
 	grid-column: 2/3;
 	font-style: italic;
-	color: black;
+	color: #333333;
 	text-align: right;
 	margin: 0em;
 	}
 	
 nav ul li {
-	text-transform: uppercase;
+	text-transform: none;
 	font-weight: 700;
 	margin-bottom: .5em;
 	padding: .5em 0.25em;
@@ -136,7 +138,7 @@ nav ul li {
 	
 nav ul li a {
 	color: white;
-	background-color: #dab48f;
+	background-color: #c29f72;
 	padding: .5em .5em;
 	border-radius: .15em .15em;
 	}
@@ -150,14 +152,14 @@ nav ul li a:hover {
 
 
 nav ul li.selected a {
-	color: #dab48f;
+	color: #c29f72;
 	background-color: #f0f0f0;
 	padding: .5em .5em;
 	border-radius: .15em .15em;
 	}
 
 p.slogan {
-	font-size: 3em;
+	font-size: 2.7em;
 	font-family: "new-spirit", serif;
 	font-weight: 700;
 	font-style: italic;
@@ -167,19 +169,19 @@ p.slogan {
 	}
 	
 hr {
-	color: #dab48f;
-	background: #dab48f;
+	color: #c29f72;
+	background: #c29f72;
 	height: 0.5em;
 	border-radius: .25em .25em;
 	width: 87.5%; 
 }
 article {
-	background-color: #dab48f;
+	background-color: #c29f72;
 	position: center;
 	max-width: 45em;
 	margin: auto;
 	padding: 0.35em;
-	border-radius: .55em .55em;
+	border-radius: .45em .45em;
 	}
 
 footer {
@@ -190,7 +192,7 @@ footer {
   box-sizing: border-box;
   padding: 1em .75em 0em;
   background: gainsboro;
-  border-radius: .55em .55em 0em  0em;
+  border-radius: .45em .45em 0em  0em;
   overflow:hidden;
 }
 
@@ -202,7 +204,7 @@ address {
 address.home {
 	color: white;
 	margin: auto auto auto 0.15em;
-	padding: 0em 5em 1em 5em;
+	padding: 0em 4em 1em 4em;
 	text-align: center;
 }
 
