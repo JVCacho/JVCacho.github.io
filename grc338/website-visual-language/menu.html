@@ -1,44 +1,210 @@
 <!doctype html>  
 <html>  
-
     <head>  
         <meta charset="UTF-8">  
         <meta name="viewport" content="width=device-width, initial-scale=1">  
         <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />  
         <meta http-equiv="Pragma" content="no-cache" />  
-        <meta http-equiv="Expires" content="0" />
+        <meta http-equiv="Expires" content="0" />  
         <link rel="stylesheet" type="text/css" href="style.css" >
         <link rel="stylesheet" href="https://use.typekit.net/cew5hjv.css">
-        <title>Cacho's Corner</title>  
+        <title>Menu</title>  
     </head>   
 
     <body>
-
-        <div class="home-container">
+        <div class="container">
 
             <header>
                 <h1><a href = "index.html"><img src="CachoCornerLogo.png" alt=""> </a></h1> 
                 <nav>
                     <ul>
                         <li><a href = "about.html">About</a></li>
-                        <li><a href = "menu.html">Menu</a></li>
+                        <li class = "selected"><a href = "menu.html">Menu</a></li>
                         <li><a href = "contact.html">Contact</a></li>
                     </ul>
                 </nav>
-            </header>  
-            
-            <p class="slogan">Discover a cozy corner of community and confections!</p>
-            <h3 class = "home" > Visit Us!</h3>
-            <address class = "home">
-                675 Corner Street, Rounder City, California<br>
-                800-105-7855
-             </address>
+            </header> 
 
-    <footer>
-        <p>© All rights reserved. Cacho's Corner, 2023.</p>
-    </footer>   
+            <main class="menu">
 
-    </div>
+            <h2>Menu</h2>
 
-        </body>  
+            <h3>Breakfast</h3>
+            <figure>
+                <img class = "corner" src="images/muffins.jpg" alt="Blueberry muffins on an oven rack with blueberries spilled over cloth."> 
+             </figure>
+             <ul>
+                <li>
+                    <h4>Plain Bagel</h4>
+                    <p class="description">Need we say more? You can’t go wrong with the original, plain bagel!</p>
+                    <p class="price">$1.25</p>
+                </li>
+                <li>
+                    <h4>Everything Bagel</h4>
+                    <p class="description">Time to change things up and add some flavor to your bagel craving needs. Enjoy a typical plain bagel with our everything seasoning sprinkled on top and within the bagel!</p>
+                    <p class="price">$1.35</p>
+                </li>
+                <li>
+                    <h4>Glazed Doughnut</h4>
+                    <p class="description">For a moment of pure joy, try our melt-in-your-mouth glazed doughnut. It's a little piece of heaven.</p>
+                    <p class="price">$1.15</p>
+                </li>
+                <li>
+                    <h4>Bag of Doughnut Holes (6 pcs)</h4>
+                    <p class="description">Not in the mood for a full doughnut this morning? Pop in your mouth perfection. Satisfy your sweet tooth with our delicious doughnut holes!
+                    </p>
+                    <p class="price">$3.25</p>
+                </li>
+                <li>
+                    <h4>Blueberry Muffin</h4>
+                    <p class="description">Rise and shine with our blueberry muffins. Made from scratch, with wholesome ingredients and a homemade taste!</p>
+                    <p class="price">$3.15</p>
+                </li>
+                <li>
+                    <h4>Choco Muffin</h4>
+                    <p class="description">Chocolate for breakfast? Yes, please! Try our mouthwatering chocolate muffins for a morning treat.</p>
+                    <p class="price">$3.25</p>
+                </li>
+                <li>
+                    <h4>Buttermilk Scone</h4>
+                    <p class="description">Boring breakfast got you down? Shake things up with our buttermilk scones. Perfectly sweet, delightfully fluffy, and just plain awesome.
+                    </p>
+                    <p class="price">$3.45</p>
+                </li>
+                <li>
+                    <h4>Cranberry Orange Scone</h4>
+                    <p class="description">Zing! Start your day with our cranberry orange scones. Filled with tart cranberries and zesty orange, they’re a flavor explosion in every bite.
+                    </p>
+                    <p class="price">$3.65</p>
+                </li>
+                <li>
+                    <h4>Cinammon Roll</h4>
+                    <p class="description">Cinnamon, sugar, and all things nice! Our warm cinnamon rolls are the ultimate breakfast indulgence, especially with our signature frosting on top.</p>
+                    <p class="price">$3.95</p>
+                </li>
+             </ul>
+             <hr>
+             <h3>Pastries</h3>
+            <figure>
+                <img class = "corner" src="images/croissant.jpg" alt="A shiny, butter-coated croissant is seen on top of a baking grid oven tray."> 
+             </figure>
+             <ul>
+                <li>
+                    <h4>Caramel Apple Strudel</h4>
+                    <p class="description">Experience the ultimate fall treat with our caramel apple strudels! Warm, flaky, and bursting with cinnamon and apple goodness.
+                    </p>
+                    <p class="price">$2.35</p>
+                </li>
+                <li>
+                    <h4>Guava and Cheese Strudel</h4>
+                    <p class="description">Looking for a strudel that's as unique as you are? Our guava and cheese strudels will have you feeling like a fruity cheese rebel.</p>
+                    <p class="price">$2.45</p>
+                </li>
+                <li>
+                    <h4>Butter Croissant</h4>
+                    <p class="description">Sink your teeth into our butter croissants and taste the difference. We use only the finest ingredients, like locally sourced butter and organic flour, to create the perfect flaky texture and rich flavor.</p>
+                    <p class="price">$2.25</p>
+                </li>
+                <li>
+                    <h4>Choco Croissant</h4>
+                    <p class="description">Can't resist chocolate? Neither can we! Try our chocolate croissants - they're like a warm hug in pastry form.</p>
+                    <p class="price">$2.35</p>
+                </li>
+                <li>
+                    <h4>Choco Cannoli</h4>
+                    <p class="description">Our chocolate cannoli are like a romance novel in pastry form. Rich, decadent chocolate meets creamy, dreamy filling for a love story you can taste.</p>
+                    <p class="price">$2.55</p>
+                </li>
+                <li>
+                    <h4>Turtle Cannoli</h4>
+                    <p class="description">Our turtle cannoli are like a dessert dream come true. The creamy filling, rich chocolate, and crunchy pecans are the perfect combination for a sweet escape!</p>
+                    <p class="price">$2.65</p>
+                </li>
+                <li>
+                    <h4>New Orleans Beignets (4)</h4>
+                    <p class="description">Talk about a real sugar rush! From the first bite of warm, doughy goodness to the last dusting of powdered sugar, it's a sugar overload you won't want to end.</p>
+                    <p class="price">$6.55</p>
+                </li>
+             </ul>
+             <hr>
+             <h3>Cookies</h3>
+            <figure>
+                <img  class = "corner" src="images/cookies.jpg" alt="Freshly baked chocolate chip cookies are seen on a baking grid oven tray."> 
+             </figure>
+             <ul>
+                <li>
+                    <h4>Choco Cookie</h4>
+                    <p class="description">Some things never go out of style - like our classic chocolate cookies. With a perfect balance of sweetness and richness, they're the cookie you'll keep coming back to again and again.</p>
+                    <p class="price">$1.45</p>
+                </li>
+                <li>
+                    <h4>Double Choco Cookie</h4>
+                    <p class="description">Chocolate lovers, unite! Our double choco cookies are the ultimate treat for anyone who loves the taste of chocolate. Soft and chewy with chunks of chocolate throughout, these cookies are the perfect way to indulge your sweet tooth.</p>
+                    <p class="price">$1.55</p>
+                </li>
+                <li>
+                    <h4>Peanut Butter Cookie</h4>
+                    <p class="description">Some cookies are good, but our peanut butter cookies are on a whole other level. With real peanut butter and top-quality ingredients, they're simply irresistible.</p>
+                    <p class="price">$1.45</p>
+                </li>
+                <li>
+                    <h4>Oatmeal Raisin Cookie</h4>
+                    <p class="description">Think oatmeal raisin cookies aren't your thing? Think again. Our recipe is a game-changer - sweet and chewy with just the right amount of raisins in every bite.</p>
+                    <p class="price">$1.55</p>
+                </li>
+                <li>
+                    <h4>Snickerdoodle Cookie</h4>
+                    <p class="description">Join the snickerdoodle revolution and taste what all the fuss is about. Our cookies are a calling, a beckoning to all who crave the perfect balance of cinnamon and sweetness in each and every bite.</p>
+                    <p class="price">$0.00</p>
+                </li>
+                <li>
+                    <h4>Sugar Cookie</h4>
+                    <p class="description">Our sugar cookies are the "Goldilocks" of cookies - not too sweet, not too bland, but just right. Try them and you'll see why!</p>
+                    <p class="price">$1.35</p>
+                </li>
+             </ul>
+             <hr>
+             <h3>Bread</h3>
+            <figure>
+                <img class = "corner" src="images/bread.jpg" alt="A loaf of bread can be seen sliced with wheat on one side and a knife on the other.">
+             </figure>
+             <ul>
+                <li>
+                    <h4>Broiche Buns</h4>
+                    <p class="description">Life is short, but our brioche buns are long on flavor! Made with the finest ingredients and a touch of whimsy, they're a bread that's just too good to resist.</p>
+                    <p class="price">$5.95</p>
+                </li>
+                <li>
+                    <h4>French Baguette</h4>
+                    <p class="description">Our French-style baguette is the epitome of bakery perfection, with a light, airy crumb and a crust that's just the right amount of crunchy. Made with premium flour, water, and yeast, it's a true taste of France.</p>
+                    <p class="price">$5.45</p>
+                </li>
+                <li>
+                    <h4>French Rolls</h4>
+                    <p class="description">Roll out the fun with our French-style roll! Perfect for dipping, sandwich-making, or just as a snack, it's a bread that's sure to bring a smile to your face.</p>
+                    <p class="price">$5.75</p>
+                </li>
+                <li>
+                    <h4>Multigrain Loaf</h4>
+                    <p class="description">With our multigrain loaf, you don't have to choose between taste and health - you can have both! Made with a variety of wholesome grains and seeds, it's a bread that's as good for your body as it is for your taste buds.</p>
+                    <p class="price">$5.35</p>
+                </li>
+                <li>
+                    <h4>Sourdough Baguette</h4>
+                    <p class="description">With a crusty exterior and a chewy, airy interior, our sourdough baguette is a celebration of traditional bread-making techniques. Made with nothing but flour, water, salt, and a healthy dose of love.</p>
+                    <p class="price">$5.55</p>
+                </li>
+                <li>
+                    <h4>Whole Wheat Loaf</h4>
+                    <p class="description">Eat well and feel good with our whole wheat loaf! Made with 100% whole wheat flour and no artificial additives, it's a bread that's sure to leave you feeling energized and satisfied.</p>
+                    <p class="price">$5.25</p>
+                </li>
+             </ul>
+            </main>
+
+            <footer>
+                <p>© All rights reserved. Cacho's Corner, 2023.</p>
+            </footer>       
+    </div>   
+    </body>  
 </html>
