@@ -50,7 +50,7 @@ header {
 	display: grid;
 	grid-template-columns: 80% auto;
 	grid-template-columns: auto auto;
-	background: gainsboro;
+	background: #dcdcdc;
 	padding: 1em .85em 1em .5em;
 	border-radius: 0em  0em .45em .45em;
 	overflow:hidden;
@@ -79,7 +79,7 @@ h4 {
 }
 
 h3.home {
-	color: white;
+	color: #FFFFFF;
 	margin: auto auto;
 	text-align: center;
 }
@@ -137,14 +137,14 @@ nav ul li {
 	}
 	
 nav ul li a {
-	color: white;
+	color: #FFFFFF;
 	background-color: #c29f72;
 	padding: .5em .5em;
 	border-radius: .15em .15em;
 	}
 
 nav ul li a:hover {
-	color: white;
+	color: #FFFFFF;
 	background-color: #333333;
 	padding: .5em .5em;
 	border-radius: .15em .15em;
@@ -191,7 +191,7 @@ footer {
   height: 3rem; 
   box-sizing: border-box;
   padding: 1em .75em 0em;
-  background: gainsboro;
+  background: #dcdcdc;
   border-radius: .45em .45em 0em  0em;
   overflow:hidden;
 }
@@ -202,7 +202,7 @@ address {
 }
 
 address.home {
-	color: white;
+	color: #FFFFFF;
 	margin: auto auto auto 0.15em;
 	padding: 0em 1em 1em 1em;
 	text-align: center;
