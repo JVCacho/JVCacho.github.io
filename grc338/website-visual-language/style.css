@@ -106,7 +106,7 @@ main.menu ul {
 main.menu ul li {
 		margin: 1em 0em 1em;
 		display: grid;
-		grid-template-columns: auto auto;
+		grid-template-columns: 3.5fr 1fr;
 		grid-template-rows: auto auto;
 }	
 
@@ -144,16 +144,16 @@ nav ul li a {
 	}
 
 nav ul li a:hover {
-	color: #FFFFFF;
-	background-color: #333333;
+	color: #c29f72;
+	background-color: #f0f0f0;
 	padding: .5em .5em;
 	border-radius: .15em .15em;
 	}
 
 
 nav ul li.selected a {
-	color: #c29f72;
-	background-color: #f0f0f0;
+	color: #FFFFFF;
+	background-color: #333333;
 	padding: .5em .5em;
 	border-radius: .15em .15em;
 	}
@@ -197,12 +197,15 @@ footer {
 }
 
 address {
-	font-size: 1.5em;
+	font-size: 1em;
+	padding: .45em 0em 1em 0em;
 	margin: auto;
+	color: #333333;
 }
 
 address.home {
 	color: #FFFFFF;
+	font-size: 1.55em;
 	margin: auto auto auto 0.15em;
 	padding: 0em 1em 1em 1em;
 	text-align: center;
