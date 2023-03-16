@@ -51,7 +51,7 @@ header {
 	grid-template-columns: 80% auto;
 	grid-template-columns: auto auto;
 	background: #dcdcdc;
-	padding: 1em .85em 1em .5em;
+	padding: 0.5em .85em .75em .5em;
 	border-radius: 0em  0em .45em .45em;
 	overflow:hidden;
 	}
