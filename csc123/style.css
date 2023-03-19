@@ -1,0 +1,50 @@
+html {
+  background: url("images/background.jpg") center center fixed;
+}
+body {
+	font-family: Trebuchet MS, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	max-width: 85em;
+	margin:  auto auto;
+  padding: 1.5em 2em 3em 2em;
+	background-color: #282828;
+  color: #FFFFEE;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.2em;
+}
+
+h3 {
+  font-size: 2.1em;
+}
+
+h4 {
+  font-size: 1.75em;
+}
+p {
+  font-size: 1.00em;
+}
+
+div.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 1em;
+}
+
+div.figure {
+  grid-column: 1/2;
+}
+div.code {
+  grid-column: 2/3;
+}
+
+a:visited {
+  color: #FFFFFE;
+}
