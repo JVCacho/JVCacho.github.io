@@ -1,0 +1,245 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+body {
+	font-family: "new-spirit", serif;
+	font-weight: 400;
+	font-style: normal;
+	max-width: 75em;
+	margin:  auto auto;
+	background-color: #c29f72;
+}
+
+div.home-container { 
+	background: url("images/windowview2.jpg") center center fixed;
+	background-size: cover;
+	position: relative;
+	min-height: 100vh;
+	background-color: #c29f72;
+}
+
+
+div.container { 
+	background-color: #f0f0f0;
+	position: relative;
+	min-height: 100vh;
+}
+
+/* >>> IMPORTANT: you have to change the wrap the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class.  */
+
+
+main { 
+	padding: 1em 1em 4.5em ;
+	background-color: #f0f0f0;
+	}
+
+img {
+    width: 100%; /*Please leave this line.*/
+    display: block;
+}
+
+img.corner {
+    width: 87.5%; 
+	margin: 0em 0em 0em 0em;
+    display: block;
+	border-radius: .45em .45em;
+}
+
+img.center {
+    width: 87.5%; 
+	margin: auto auto;
+    display: block;
+	border-radius: .45em .45em;
+}
+
+
+header {
+	display: grid;
+	grid-template-columns: 80% auto;
+	grid-template-columns: auto auto;
+	background: #dcdcdc;
+	padding: 0.5em .85em .75em .5em;
+	border-radius: 0em  0em .45em .45em;
+	overflow:hidden;
+	}
+
+h1 {
+	width: 11em;
+	padding: .5em 0em 0em .65em;
+	}
+
+h2, h3, h4 {
+	color: #333333;
+	font-weight: 700;
+	}
+
+h2 {
+	font-size: 2.25em;
+	}
+	
+h3 {
+	font-size: 2em;
+	margin: 1.3em 0em 1em 0em;
+}
+h4 {
+	font-size: 1.45em;
+}
+
+h3.home {
+	color: #FFFFFF;
+	margin: auto auto;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	}
+
+nav ul  {
+	text-align: right;
+	}
+	
+ul li 	{
+	list-style-type: none;
+}
+
+figure {
+	margin-bottom: 1.5em;
+}
+
+main.menu ul {
+	margin: 0.2em 0em 2.2em;
+}	
+
+main.menu ul li {
+		margin: 1em 0em 1em;
+		display: grid;
+		grid-template-columns: 3.5fr 1fr;
+		grid-template-rows: auto auto;
+}	
+
+p {
+	margin: 0.5em 0em 1em 0em;
+	color: #333333;
+	}
+
+p.description {
+	grid-column: 1/3;
+	margin: 0em;
+	}
+	
+p.price {
+	grid-row: 1/2;
+	grid-column: 2/3;
+	font-style: italic;
+	color: #333333;
+	text-align: right;
+	margin: 0em;
+	}
+	
+nav ul li {
+	text-transform: none;
+	font-weight: 700;
+	margin-bottom: .5em;
+	padding: .5em 0.25em;
+	}
+	
+nav ul li a {
+	color: #FFFFFF;
+	background-color: #c29f72;
+	padding: .5em .5em;
+	border-radius: .15em .15em;
+	}
+
+nav ul li a:hover {
+	color: #c29f72;
+	background-color: #fafafa;
+	padding: .5em .5em;
+	border-radius: .15em .15em;
+	}
+
+
+nav ul li.selected a {
+	color: #FFFFFF;
+	background-color: #333333;
+	padding: .5em .5em;
+	border-radius: .15em .15em;
+	}
+
+p.slogan {
+	font-size: 2.7em;
+	font-family: "new-spirit", serif;
+	font-weight: 700;
+	font-style: italic;
+	text-align: center;
+	padding: 1em .75em .75em .75em;
+	color: #fafafa;	
+	}
+	
+hr {
+	color: #c29f72;
+	background: #c29f72;
+	height: 0.5em;
+	border-radius: .25em .25em;
+	width: 87.5%; 
+}
+article {
+	/*background-color: #c29f72; */
+	position: center;
+	max-width: 45em;
+	margin: auto;
+	padding: 0.35em;
+	border-radius: .45em .45em;
+	}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem; 
+  box-sizing: border-box;
+  padding: 1em .75em 0em;
+  background: #dcdcdc;
+  border-radius: .45em .45em 0em  0em;
+  overflow:hidden;
+}
+
+address {
+	font-size: 1em;
+	padding: .45em 0em 1em 0em;
+	margin: auto;
+	color: #333333;
+}
+
+address.home {
+	color: #FFFFFF;
+	font-size: 1.55em;
+	margin: auto auto auto 0.15em;
+	padding: 0em 1em 1em 1em;
+	text-align: center;
+}
+
+
+footer p {
+	margin: auto;
+}
+
+@media screen and (min-width: 60em) {
+
+main.menu ul {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 5em;
+}
+
+nav ul li  {
+	font-size: 1.5em;
+	display: inline-block;
+	margin: .5em .35em .45em 0em;
+}
+
+div.container, div.home-container {
+	margin: auto;
+}
+
+}
