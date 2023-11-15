@@ -175,8 +175,7 @@ main.gallery figure {
 main.gallery figcaption {
     font-size: 1.2em;
     font-weight: bold;
-    margin: 1em 0;
-    padding: 0em 0em 0em 1em;
+    margin: 0.5em 0;
     color: #323031;
 }
 
@@ -192,6 +191,7 @@ h3.gallery, h3.newsletter {
 nav.gallery {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    margin: 1em 0em;
     grid-gap: 0.2em;
 }
 
@@ -298,6 +298,9 @@ div.newsletter section {
     nav {
         text-align: center;
     }
+
+    
+
 }
 
 
