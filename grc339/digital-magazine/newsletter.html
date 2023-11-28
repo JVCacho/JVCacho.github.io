@@ -17,7 +17,7 @@
                 <div class="newsletter">
 
                     <header>
-                        <h1 class="logo"> <a href = "index.html"><img src="logo.svg" alt="Logo of On The Crest."> </a></h1> <!-- ★ Please use a proper alt attribute.-->
+                        <h1> <a href = "index.html"><img src="logo.svg" alt="On The Crest."> </a></h1> <!-- ★ Please use a proper alt attribute.-->
                         
                         <nav>
                             <ul> <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
@@ -30,35 +30,30 @@
                         </nav>
                     </header>
                     
-                    <h1 class="newsletter">Newsletter</h1>
+                    <h2 class="newsletter">Newsletter</h2>
 
                     <form>
 
                         <section class="section-1">
 
-                            <h2>Personal Information</h2>
+                            <h3>Personal Information</h3>
 
                             <ul class = "newsletter">
 
                                 <li>
-                                    <label for="field-1">First Name:</label> 
-                                    <input type="text" name="field-1" id="field-1" placeholder="Your first name" />
+                                    <label for="field-1">Name:</label> 
+                                    <input type="text" name="field-1" id="field-1" placeholder="Your preferred name" />
                                 </li>
 
                                 <li>
-                                    <label for="field-2">Last Name:</label> 
-                                    <input type="text" name="field-2" id="field-2" placeholder="Your last name" />
-                                </li>
-
-                                <li>
-                                    <label for="field-3">Email Address:</label> <input type="text" name="field-3" id="field-3" placeholder="Your email address" />
+                                    <label for="field-2">Email Address:</label> <input type="text" name="field-3" id="field-2" placeholder="Your email address" />
                                 </li>
                                 <li>
                                     <label for="state">Region:</label>
-                                    <select id="field-4" name="field-4">
+                                    <select id="field-3" name="field-3">
                                         <option value=""></option>
                                         <option value="select1">North America - United States</option>
-                                        <option value="select2">North America - General</option>
+                                        <option value="select2">North America - Other</option>
                                         <option value="select3">South America</option>
                                         <option value="select4">Europe</option>
                                         <option value="select5">Asia</option>
@@ -73,10 +68,12 @@
 
                         <section class="section-2">
                             
-                            <h2>Newsletter Categories</h2>
+                            <h3>Newsletter Categories</h3>
         
                             <ul class = "newsletter">
                                 <li><input type="checkbox" id="latest_patches" value="latest_patches" /> <label for="latst_patches">Latest Patches</label></li>
+
+                                <li><input type="checkbox" id="patch_spotlights" value="patch_spotlights" /> <label for="patch_spotlights">Patch Spotlights</label></li>
 
                                 <li><input type="checkbox" id="history" value="history" /> <label for="history">History</label></li>
                                
@@ -86,11 +83,13 @@
 
                                 <li><input type="checkbox" id="manufacturing" value="manufacturing" /> <label for="manufacturing">Manufacturing</label></li>
 
+                                <li><input type="checkbox" id="collectors_corner" value="collectors_corner" /> <label for="collectors_corner">Collector's Corner</label></li>
+
                                 <li><input type="checkbox" id="miscellaneous" value="miscellaneous" /> <label for="miscellaneous">Miscellaneous</label></li>
                             </ul>
                         </section>
                         <section class="section-3">
-                            <h2>Newsletter Feedback</h2>
+                            <h3>Newsletter Feedback</h3>
                             <label for="comments">What other stories do you want us to write about? Let us know!</label>
                             <textarea id="comments" name="comments"></textarea>
                         </section>
