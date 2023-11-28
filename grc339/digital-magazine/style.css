@@ -18,12 +18,12 @@ nav {
 	font-weight: 400;
 	font-style: normal;
     color: #084C61;
-	}   
+}   
    
 nav ul {
         list-style-type: none;
         padding:0;
-    }
+}
 
 nav ul li {
     display: inline;
@@ -46,17 +46,16 @@ div.container, div.gallery, div.newsletter {
     padding: 1em;
 }
 
-
 section {
     max-width: 40em;
     margin: 0 auto;
 }
 
 section p {
-    padding: 0em 0.5em 0em 0.25em;
+    padding: 0em 0.5em 0em 0em;
 }
 section h3 {
-    padding: 0em 0em 0em 0.25em;
+    padding: 0em 0em 0em 0em;
 }
 
 section.tertiary {
@@ -81,13 +80,10 @@ h2, h3, h4 {
     color: #084C61;
 	max-width: 75em;
     margin: auto;
+}
 
-}
-h1.logo {
-    margin:auto;
-}
-h1.gallery, h1.newsletter {
-    padding: .5em 0em 0em 0em;
+h2.gallery, h2.newsletter {
+    padding: 1em 0em 1em 0em;
     font-family: kallisto, sans-serif;
 	font-weight: 500;
 	font-style: normal;
@@ -99,18 +95,24 @@ a {
 	text-decoration: none;
     color: #323031;
 	}
-	
+
+h1 {
+        width: 10em;
+        margin:auto;
+}
+
 h1 img {
     margin: 0 auto;
     width: 100%;
     border-bottom: none;
 }
+
 img {
     width: 100%;
 }
 
 figcaption {
-    padding: .5em 0em 1em 0em;
+    padding: .5em .5em 1em .5em;
     font-style:italic;
 }
 
@@ -161,7 +163,7 @@ input:nth-of-type(12):checked ~ main figure:nth-of-type(12)
 main.gallery {
     position: relative;
     overflow: hidden;
-    padding-bottom: calc(72% + 3em);
+    padding-bottom: calc(72% + 2em);
 }
 
 main.gallery figure {
@@ -174,7 +176,7 @@ main.gallery figure {
 
 main.gallery figcaption {
     font-size: 1.2em;
-    font-weight: bold;
+    font-weight: normal;
     margin: 0.5em 0;
     color: #323031;
 }
@@ -188,6 +190,7 @@ h3.gallery, h3.newsletter {
     padding: 1em 0em;
 	margin: 0 auto;
 }
+
 nav.gallery {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -195,13 +198,11 @@ nav.gallery {
     grid-gap: 0.2em;
 }
 
-
 div.gallery input {
     display: none;
 }
 
-
-/* Below is for the Newsletter */
+/* Below is for the Newsletter page */
 
 .section-1 ul li {
 	display: flex;
@@ -232,7 +233,6 @@ textarea {
 	width: 70%;
 	height: 5em;
 }
-
 
 div.newsletter section {
     padding: 0em 0em 1em;
@@ -288,9 +288,11 @@ div.newsletter section {
         height: 95%;
         object-fit: cover;
     }
+
     aside {
         grid-column: 2/3;
     }
+
     footer {
         grid-column: 1/3;
     }
@@ -298,12 +300,38 @@ div.newsletter section {
     nav {
         text-align: center;
     }
-
-    
-
 }
 
 
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background-color: #323031;
+        color: #FFFFF0;
+    }
+
+    p, nav ul li a, main.gallery figcaption {
+        color: #FFFFF0;
+    }
+
+    h2.gallery, h2.newsletter, h2, h3, h4 {
+        color:#177E89;
+    }
+
+    h1 {  
+        background-image: url("logo-alt.svg");  
+        background-repeat: no-repeat;  
+        background-size: contain;
+        width: 10em;
+        margin: auto;
+    }  
+
+    h1 img {  
+        opacity: 0;
+        width: 100%;
+        border-bottom: none;
+    }  
+    
+}
 
   /*
 Color Palette Notes:
@@ -312,4 +340,5 @@ Dark Blue - #084C61
 Red - #DB3A34
 Yellow - #FFC857
 Black - #323031
+
   */
