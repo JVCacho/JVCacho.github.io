@@ -321,14 +321,10 @@ div.newsletter section {
         background-image: url("logo-alt.svg");  
         background-repeat: no-repeat;  
         background-size: contain;
-        width: 10em;
-        margin: auto;
     }  
 
     h1 img {  
         opacity: 0;
-        width: 100%;
-        border-bottom: none;
     }  
     
 }
