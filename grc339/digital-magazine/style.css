@@ -64,8 +64,10 @@ section.tertiary {
 }
 
 article {
-    padding: 1em 0 1em 0;
+    margin: 0 auto;
+    padding: 1em 0em 1em 0;
     border-bottom: 0.5em double #FFC857;
+    max-width: 43.4em;
 }
 
 h1 {
@@ -97,8 +99,8 @@ a {
 	}
 
 h1 {
-        width: 10em;
-        margin:auto;
+    width: 10em;
+    margin:auto;
 }
 
 h1 img {
@@ -163,7 +165,7 @@ input:nth-of-type(12):checked ~ main figure:nth-of-type(12)
 main.gallery {
     position: relative;
     overflow: hidden;
-    padding-bottom: calc(72% + 2em);
+    padding-bottom: calc(71% + 2.5em);
 }
 
 main.gallery figure {
@@ -177,8 +179,19 @@ main.gallery figure {
 main.gallery figcaption {
     font-size: 1.2em;
     font-weight: normal;
-    margin: 0.5em 0;
     color: #323031;
+}
+
+nav.gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 1em 0em;
+    grid-gap: 0.2em;
+    padding-top: 1em;
+}
+
+div.gallery input {
+    display: none;
 }
 
 h3.gallery, h3.newsletter {
@@ -189,17 +202,6 @@ h3.gallery, h3.newsletter {
 	max-width: 75em;
     padding: 1em 0em;
 	margin: 0 auto;
-}
-
-nav.gallery {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    margin: 1em 0em;
-    grid-gap: 0.2em;
-}
-
-div.gallery input {
-    display: none;
 }
 
 /* Below is for the Newsletter page */
@@ -236,6 +238,10 @@ textarea {
 
 div.newsletter section {
     padding: 0em 0em 1em;
+}
+
+div.newsletter ul li {
+    padding: 0.15em 0em;
 }
 
 /* Below is for wide screens */
@@ -289,6 +295,12 @@ div.newsletter section {
         object-fit: cover;
     }
 
+    main.gallery {
+        position: relative;
+        overflow: hidden;
+        padding-bottom: calc(70%);
+    }
+
     aside {
         grid-column: 2/3;
     }
@@ -302,6 +314,8 @@ div.newsletter section {
     }
 }
 
+
+/* Below is for dark mode screens */
 
 @media screen and (prefers-color-scheme: dark) {
     body {
